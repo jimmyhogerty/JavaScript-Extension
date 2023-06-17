@@ -1,0 +1,26 @@
+{
+  "name": "HTML/CSS/JS Replit Extension Starter",
+  "description": "A starter template for a Replit Extension with HTML, CSS, and JavaScript",
+  "version": "0",
+  "tools": [
+    {
+      "name": "Example Extension",
+      "icon": "/replit.svg",
+      "handler": "/"
+    }
+  ],
+  "icon": "/replit.svg",
+  scopes: [
+
+    {
+      name: "read",
+      reason: "Read any file in your Repl"
+    },
+
+    {
+    name: "write-exec",
+    reason: "Write to any file in your Repl and execute any code"
+  }
+
+  ]
+}
